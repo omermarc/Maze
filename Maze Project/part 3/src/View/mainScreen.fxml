@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="750.0" prefWidth="1151.0" stylesheets="@MainScreen.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MainScreenController">
+   <children>
+      <ImageView fitHeight="601.0" fitWidth="802.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+         </image>
+      </ImageView>
+      <Button layoutX="471.0" layoutY="502.0" mnemonicParsing="false" onAction="#pushedPlayGame" prefHeight="30.0" prefWidth="156.0" text="New Game" textOverrun="CLIP" />
+   </children>
+</AnchorPane>

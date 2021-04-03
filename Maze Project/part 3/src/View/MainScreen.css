@@ -1,0 +1,19 @@
+.root{
+    -fx-background-image:url("../../../../resources/Images/mainScreen2.jpg");
+    -fx-background-repeat: stretch ;
+    -fx-background-position: center ;
+    -fx-background-size: 100% 100% ;
+}
+
+Button {
+    -fx-font-weight: bold;
+    -fx-font-family: "Tahoma", Times, serif;
+    -fx-font-size: 17;
+    -fx-padding: 1,1,1,1;
+    -fx-background-color: #555555;
+    -fx-text-fill: white;
+}
+
+Button:hover{
+    -fx-background-color: rgba(178 , 223, 251, 0.8);
+}

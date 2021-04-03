@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="667.0" prefWidth="1000.0" stylesheets="@EndMenu.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MainScreenController">
+   <children>
+      <Button layoutX="143.0" layoutY="534.0" mnemonicParsing="false" onAction="#pushedPlayGame" prefHeight="24.0" prefWidth="134.0" text="Next Mission !" />
+   </children>
+</AnchorPane>
